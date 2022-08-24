@@ -1,0 +1,10 @@
+{margin: auto; padding: 0;}
+body{ background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fusuaria.org.ar%2Fwp-content%2Fuploads%2F2020%2F07%2FFondo-Web-1920x1080-1.jpg%3Fssl%3D1&f=1&nofb=1);}
+nav{background-color: rgb(163, 213, 238);}
+a{color: rgb(163, 213, 238);}
+button{background-color: rgb(0, 0, 0); float: right;}
+section h1{color: azure; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Times, serif;}
+article h2{color: bisque; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+h3{color:bisque;}
+img{float: left;}
+ol{float: left;}
