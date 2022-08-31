@@ -28,14 +28,44 @@ body {
     width: 80%;
     padding: 20px;
     text-align: center;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'PT Mono', monospace;
+}
+
+.custom-section {
+    padding-top: 50px;
+}
+
+.cb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-text {
+    font-family: 'New Tegomin', serif;
+}
+
+.redes {
+    text-align: right;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.redes li {
+    display: inline-block;
+
 }
 
 footer {
-    background: black;
+    background: lightgray;
+    border: double 10px white;
     padding: 20px 0;
     color: var(--main-color);
     margin: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
 }
 
 .home {
