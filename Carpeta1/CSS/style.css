@@ -44,6 +44,12 @@ body {
 
 .card-text {
     font-family: 'New Tegomin', serif;
+    font-size: 20px;
+}
+
+.card-text1 {
+    font-family: 'New Tegomin', serif;
+    font-size: 25px;
 }
 
 .redes {
