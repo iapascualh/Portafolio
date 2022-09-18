@@ -1,99 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=New+Tegomin&family=PT+Mono&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,700&family=Montserrat:wght@200;400;600&family=New+Tegomin&display=swap"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Portafolio Personal - Irving Alexis Pascual Hernández</title>
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style.css"><!-- aqui linkieamos nuestra hoja de estilo -->
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <a target="_blank" href="https://github.com/iapascualh"><img src="./imagen/Logogithub.png" width="25"
-                        class="d-inline-block align-top" alt="">
-                    @iapascualh</a>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <header>
+        <!-- aqui indicamos que ira la parte del encabezado -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- aqui insertamos la barra de navegacion de mi portafolio -->
+            <div class="container">
+                <!-- el container se usa como una clase para ordenar los elementos que contiene la etiqueta -->
+                <nav class="navbar navbar-light bg-light">
+                    <!-- Aqui se usa para insertar la imagen de github y lo traje de Bootstrap -->
+                    <a class="navbar-brand" href="#">
+                        <img src="./src/Logogithub.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                        @iapascualh
+                    </a>
+                </nav>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">Inicio <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./servicio.html">Mis Servicios <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./contacto.html">Contacto <span class="sr-only">(current)</span></a>
-                    </li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link navBar" href="./pages/servicio.html">Mis Servicios <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </nav>
+    </header>
+    <main class="container">
+        <!-- Aqui insertaremos todo lo que ira en el cuerpo de la pagina con la etiqueta Main -->
+        <div class="bg portada container"></div>
+        <div class="bg-textPortada container">
+            <h1>Soy Irving Alexis Pascual, Developer Web</h1>
         </div>
-    </nav>
-    <div class="bg home"></div>
-    <div class="bg-text container">
-        <h1>Soy Irving Alexis Pascual, Developer Web</h1>
-    </div>
-    <section class="container custom-section">
-        <div class="row">
-            <div class="col-md" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-                <img src="./imagen/acercademi.png" class="img-fluid" alt="">
-            </div>
-            <div class="cb col-md">
-                <p class="card-text">
-                    Hola, de antemano agradezco el interés y el tiempo que le estas dedicando a mi portafolio, en donde
-                    hablare un poco de mí persona y mis servicios en cuanto a trabajos.</p>
-                <p class="card-text">
-                    Tengo 25 años y soy egresado de Ingeniería en Sistemas Digitales y Robótica de la Universidad
-                    Tecnológica de México, del cual soy de la generación 2016 - 2020.
-                    Mis motivos para escoger esta carrera son por mi pleno interés por la tecnología y la evolución que
-                    tenemos como sociedad hacia el futuro, en el cual convivimos cada vez más con estas nuevas
-                    tecnologías que nos ayudan a simplificar nuestro trabajo o pasatiempos, por lo mismo, tuve interés
-                    de saber como se crean los programas que se usan para sistematizar y decidí incursionar en el
-                    bootcamp de tiempo completo que ofrece Generetion México sobre Desarrollador Java Jr.(agosto 2022 –
-                    octubre 2022).
-                </p>
-                <p class="card-text">
-                    Durante mi tiempo libre me gusta leer, escuchar música, visitar páginas sobre nuevas tecnologías y
-                    programación. Disfruto mucho pasar tiempo con mi familia y amigos. Otros de los pasatiempos que
-                    estoy implementando a mi vida son aprender idiomas, conocer personas y realizar ejercicio.
-                </p>
-                <p class="card-text">
-                    Como profesionista me considero una persona responsable, honesta, equitativa y creativa. Soy
-                    tolerante ante complicaciones, fallos o cambios en mis actividades, creo que gracias a esto puedo
-                    conseguir adaptarme a cualquier ambiente de trabajo, en cual también tengo una buena interacción
-                    hacia el trabajo en equipo y convivencia con otras personas, haciendo así que pueda convivir
-                    armónica y participativamente con otros compañeros de trabajo.
-                </p>
-                <p class="card-text">
-                    Espero que esta información sea conclusiva o que contribuya al perfil que vez en mí, nuevamente
-                    agradezco interés y el tiempo que me hayas dedicado y espero des un repaso posterior a mí, ya que
-                    estoy en constante mejoramiento como persona y profesionista, espero que tengas un excelente día y
-                    me despido deseándote éxitos en tus actividades.
-                </p>
-            </div>
+        <section class="container seccion">
+            <!-- aqui insertaremos los elementos por tematicas, secciones -->
+            <div class="row">
+                <div class="col-md" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
+                    <img src="./src/Irving.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="cb col-md tarjeta">
+                    <h3>Acerca de mí</h3>
+                    <p class="card-text">
+                        Hola, de antemano agradezco el interés y el tiempo que le estas dedicando a mi portafolio, en
+                        donde
+                        hablare un poco de mí persona y mis servicios en cuanto a trabajos.</p>
+                    <p class="card-text">
+                        Tengo 25 años y soy egresado de Ingeniería en Sistemas Digitales y Robótica de la Universidad
+                        Tecnológica de México, del cual soy de la generación 2016 - 2020.
+                        Mis motivos para escoger esta carrera son por mi pleno interés por la tecnología y la evolución
+                        que
+                        tenemos como sociedad hacia el futuro, en el cual convivimos cada vez más con estas nuevas
+                        tecnologías que nos ayudan a simplificar nuestro trabajo o pasatiempos, por lo mismo, tuve
+                        interés
+                        de saber como se crean los programas que se usan para sistematizar y decidí incursionar en el
+                        bootcamp de tiempo completo que ofrece Generetion México sobre Desarrollador Java Jr.(agosto
+                        2022 –
+                        octubre 2022).
+                    </p>
+                    <p class="card-text">
+                        Durante mi tiempo libre me gusta leer, escuchar música, visitar páginas sobre nuevas tecnologías
+                        y
+                        programación. Disfruto mucho pasar tiempo con mi familia y amigos. Otros de los pasatiempos que
+                        estoy implementando a mi vida son aprender idiomas, conocer personas y realizar ejercicio.
+                    </p>
+                    <p class="card-text">
+                        Como profesionista me considero una persona responsable, honesta, equitativa y creativa. Soy
+                        tolerante ante complicaciones, fallos o cambios en mis actividades, creo que gracias a esto
+                        puedo
+                        conseguir adaptarme a cualquier ambiente de trabajo, en cual también tengo una buena interacción
+                        hacia el trabajo en equipo y convivencia con otras personas, haciendo así que pueda convivir
+                        armónica y participativamente con otros compañeros de trabajo.
+                    </p>
+                    <p class="card-text">
+                        Espero que esta información sea conclusiva o que contribuya al perfil que vez en mí, nuevamente
+                        agradezco interés y el tiempo que me hayas dedicado y espero des un repaso posterior a mí, ya
+                        que
+                        estoy en constante mejoramiento como persona y profesionista, espero que tengas un excelente día
+                        y
+                        me despido deseándote éxitos en tus actividades.
+                    </p>
+                </div>
+        </section>
+        <section class="container seccion">
             <div class="row">
                 <div class="col-md" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
-                    <img src="./imagen/objetivo.png" class="img-fluid" alt="...">
+                    <img src="./src/objetivo.png" class="img-fluid" alt="...">
                 </div>
-                <div class="cb col-md">
+                <div class="cb col-md tarjeta">
                     <h3>Metas y Objetivos</h3>
                     <p class="card-text1">
                         Mi meta principal es llegar a trabajar en empresas altamente competitivas en el mercado
@@ -114,23 +134,22 @@
                     </p>
                 </div>
             </div>
-        </div>
-    </section>
+            </div>
+        </section>
+    </main>
     <script>
         AOS.init();
     </script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
     <footer>
+        <!-- Aqui insertaremos todo lo que queramos que valla en el pie de pagina -->
         <div class="container">
-            <p>&copy; Copyright Todos los derechos reservados 2022 </p>
+            <address>&copy; Copyright Todos los derechos reservados 2022</address>
         </div>
     </footer>
 </body>
