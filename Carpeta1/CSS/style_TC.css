@@ -36,6 +36,38 @@ nav a:hover {
 /* aqui creamos una variable(root) de color para ahorrar tiempo de cambio */
 
 
+.formulario {
+    margin-top: 2em;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+    background: rgb(255, 255, 255, 0.30);
+    box-shadow: 0 8px 32px 0 rgb(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* aqui se da el diseño del formulario de cotizacion */
+
+.subt {
+    margin-top: 2em;
+    padding: .5em;
+    width: 25%;
+    border-radius: 50px;
+    background: rgb(255, 255, 255, 0.30);
+    box-shadow: 0 8px 32px 0 rgb(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.cot {
+    margin-top: 2em;
+    padding: .5em;
+    width: 100%;
+    border-radius: 10px;
+    background: rgb(255, 255, 255, 0.30);
+    box-shadow: 0 8px 32px 0 rgb(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
 .bg {
     text-align: center;
     padding: 10px;
@@ -65,7 +97,7 @@ nav a:hover {
     padding: 20px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    text-shadow: black 3px 1px 1px;
+    text-shadow: black 1.5px 1px 1px;
     min-width: 320px;
 }
 
@@ -86,44 +118,18 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 2em;
-    padding: 3em;
-    width: 100%;
-    border-radius: 10px;
-    background: rgb(255, 255, 255, 0.30);
-    box-shadow: 0 8px 32px 0 rgb(31, 38, 135, 0.37);
-    border: 1px solid rgba(255, 255, 255, 0.18);
 }
-
 
 /* aqui perzonalizamos el estilo de las cards */
-
-h3 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 37px;
-    text-shadow: black 0.5px 1px 1px;
+.warnings {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
 }
 
-/* aqui modificamos las letras del texto de la etiqueta H3 Acerca de mi*/
 
-.card-text {
-    color: gainsboro;
-    font-family: 'New Tegomin', serif;
-    font-size: 20px;
-    text-shadow: black 2px 1px 1px;
-}
-
-/* aqui modificamos las letras del texto de la etiqueta p Acerca de mi*/
-
-
-.card-text1 {
-    color: gainsboro;
-    font-family: 'New Tegomin', serif;
-    font-size: 23px;
-    text-shadow: black 2px 1px 1px;
-}
-
-/* aqui modificamos las letras del texto de la etiqueta p Metas y Objetivos*/
 
 footer {
     background: black;
@@ -137,7 +143,7 @@ footer {
 
 
 .portada {
-    background-image: url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80);
+    background-image: url(https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
 }
 
 /* aqui se inserta la imagen de la portada con la clase de portada */

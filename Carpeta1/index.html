@@ -14,6 +14,7 @@
         rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="icon" href="./src/alexc.ico">
     <title>Portafolio Personal - Irving Alexis Pascual Hernández</title>
     <link rel="stylesheet" href="./CSS/style.css"><!-- aqui linkieamos nuestra hoja de estilo -->
 </head>
@@ -27,10 +28,8 @@
                 <!-- el container se usa como una clase para ordenar los elementos que contiene la etiqueta -->
                 <nav class="navbar navbar-light bg-light">
                     <!-- Aqui se usa para insertar la imagen de github y lo traje de Bootstrap -->
-                    <a class="navbar-brand" href="#">
-                        <img src="./src/Logogithub.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                        @iapascualh
-                    </a>
+                    <img src="./src/Logogithub.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    @iapascualh
                 </nav>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -41,11 +40,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
+                            <a class="nav-link navBar" href="./index.html">Inicio <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
                             <a class="nav-link navBar" href="./pages/servicio.html">Mis Servicios <span
                                     class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="./pages/contacto.html">Contacto <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./pages/trabajaConmigo.html">Trabaja Conmigo <span
                                     class="sr-only">(current)</span></a>
                         </li>
                     </ul>
@@ -110,7 +117,7 @@
         </section>
         <section class="container seccion">
             <div class="row">
-                <div class="col-md" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
+                <div class="col-md" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <img src="./src/objetivo.png" class="img-fluid" alt="...">
                 </div>
                 <div class="cb col-md tarjeta">

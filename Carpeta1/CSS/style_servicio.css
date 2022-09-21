@@ -2,6 +2,7 @@ body {
     margin: 0;
     background: lightgray;
     min-width: 320px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F002%2F788%2F266%2Flarge_2x%2Flight-blue-layout-with-lines-rectangles-rectangles-with-colorful-gradient-on-abstract-background-pattern-for-websites-landing-pages-vector.jpg&f=1&nofb=1);
     animation-duration: 0.5s;
     animation-name: slidein;
 }
@@ -22,7 +23,7 @@ body {
 
 
 nav a:hover {
-    background-color: rgb(196, 195, 195);
+    background-color: rgb(9, 216, 40);
     border-radius: 1em;
 }
 
@@ -65,7 +66,7 @@ nav a:hover {
     padding: 20px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    text-shadow: black 1px 1px 1px;
+    text-shadow: black 3px 1px 1px;
     min-width: 320px;
 }
 
@@ -85,13 +86,30 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 2em;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+    background: rgb(255, 255, 255, 0.30);
+    box-shadow: 0 8px 32px 0 rgb(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 /* aqui perzonalizamos el estilo de las cards */
 
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-shadow: black 0.5px 1px 1px;
+}
+
+/* aqui modificamos las letras del texto de la etiqueta H3*/
+
 .card-text1 {
+    color: gainsboro;
     font-family: 'New Tegomin', serif;
     font-size: 30px;
+    text-shadow: black 1px 1px 1px;
 }
 
 /* aqui modificamos las letras del texto de la etiqueta p*/
